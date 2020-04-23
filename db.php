@@ -2,7 +2,7 @@
 
 define('DBHOST', 'localhost');
 define('DBUSER', 'root');
-define('DBPASS', 'pass');
+define('DBPASS', '');
 define('DBNAME', 'mini_app');
 
 $conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
